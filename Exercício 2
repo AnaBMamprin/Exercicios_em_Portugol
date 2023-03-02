@@ -1,0 +1,9 @@
+Dados dois números, calcular e apresentar a média aritmética dos números.
+
+ALGORITMO
+  DECLARE N1, N2, MEDIA NUMÉRICO
+  ESCREVA “Digite os dois números”
+  LEIA N1, N2
+  MEDIA ← (N1 + N2)/2
+  ESCREVA “Média = “, MEDIA
+FIM_ALGORITMO
