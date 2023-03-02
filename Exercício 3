@@ -1,0 +1,9 @@
+Faça um programa que receba o valor de um produto, calcule e mostre o novo preço, sabendo-se que esse sofreu um desconto de 10% (Exercício 5, pág.50 livro ASCENIO).
+
+ALGORITMO
+  DECLARE PRECO_ATUAL, NOVO_PRECO NUMÉRICO
+  ESCREVA “Digite o preço atual do produto”
+  LEIA PRECO_ATUAL
+  NOVO_PRECO ← PRECO_ATUAL * 0,90
+  ESCREVA “Novo preço = “, NOVO_PRECO
+FIM_ALGORITMO
