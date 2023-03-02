@@ -1,0 +1,18 @@
+Dados dois valores, calcular e apresentar a soma, a multiplicação, a subtração e a divisão dos mesmos.
+
+ALGORITMO
+  DECLARE N1, N2, SOMA, MULTIPLICACAO, SUBTRACAO, DIVISAO NUMÉRICO
+  ESCREVA “Digite dois números”
+  LEIA N1, N2
+  SOMA ← N1 + N2
+  ESCREVA “Soma = “, SOMA
+  MULTIPLICACAO  ← N1 * N2
+  ESCREVA “Multiplicação = “, MULTIPLICACAO
+  SUBTRACAO ← N1 - N2
+  ESCREVA “Subtração = “, SUBTRACAO
+  SE N2 = 0
+    ENTÃO ESCREVA “Impossível dividir”
+  SENÃO INÍCIO 
+    DIVISAO ← N1 / N2
+    ESCREVA “Divisão = “, DIVISAO
+FIM_ALGORITMO
